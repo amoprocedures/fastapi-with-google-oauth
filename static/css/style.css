@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 50vh;
+    width: 25vw;
+    display: flex;
+    padding-block: 2rem;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #47616c;
+    border-radius: 12px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-box {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    background-color: #47616c;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    padding-inline: 8px;
+    text-decoration: none;
+}
+
+.google-icon {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg") transparent 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 50px;
+}
+
+.btn-text {
+    margin-left: 10px;
+}
