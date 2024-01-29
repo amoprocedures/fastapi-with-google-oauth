@@ -74,4 +74,5 @@ async def auth(request: Request):
 @app.get('/logout')
 def logout(request: Request):
     request.session.pop('user')
+    request.session.clear()
     return RedirectResponse('/')
